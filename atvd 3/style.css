@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#pagina {
+    background-color: rgba(106, 133, 172, 0.573);
+}
+
+#topo {
+    background-color: rgb(2, 2, 70);
+    text-align: center;
+    color: white;
+}
+
+#topo h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#topo p {
+    padding: 5px;
+    font-style: oblique;
+}
+
+.dropbtn {
+    border: none;
+
+}
+
+#menu-principal {
+    width: 100%;
+    display: flex;
+}
+
+#menu-principal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    width: 100%;
+}
+
+#menu-principal li {
+    float: left;
+}
+
+#menu-principal li a,
+.dropbtn {
+    display: inline-block;
+    color: rgb(2, 2, 70);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: azure;
+}
+
+#menu-principal li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #6e8ac0;
+    color: white;
+}
+
+#menu-principal li.dropdown {
+    display: inline-block;
+    
+}
+
+#menu-principal .dropcont {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#menu-principal .dropcont a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#menu-principal .dropcont a:hover {
+    background-color: #f1f1f1;
+    color: rgb(2, 2, 70);
+}
+
+#menu-principal .dropdown:hover .dropcont {
+    display: block;
+}
+
+#pioneiros {
+    color: white;
+    margin: 40px;
+    width: 500px;
+}
+
+#pioneiros h2 {
+    background-color: rgb(9, 6, 88);
+    width: 250px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ada {
+    padding: 20px;
+    color: rgb(9, 6, 88);
+    font-size: 18px;
+}
+
+.alan {
+    padding: 20px;
+    color: rgb(9, 6, 88);
+    font-size: 18px;
+}
+
+.alan blockquote {
+    font-style: oblique;
+}
+
+.curios {
+    padding: 20px;
+    color: rgb(9, 6, 88);
+    font-size: 18px;
+}
+
+.ft {
+    height: 300px;
+    margin-left: 1000px;
+    position: absolute;
+    top: 140px;
+}
+
+#bugs {
+    background-color: rgb(9, 6, 88);
+    color: azure;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 15px;
+    text-align: right;
+}
+
+#bugs h2 {
+    text-align: center;
+}
+
+.first {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.virus {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.creeper {
+    position: absolute;
+    right: 1000px;
+    top: 500px;
+    width: 700px;
+}
+
+#internet {
+    color: white;
+    margin: 40px;
+    width: 500px;
+}
+
+#internet h2 {
+    background-color: rgb(9, 6, 88);
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.web {
+    padding: 20px;
+    color: rgb(9, 6, 88);
+    font-size: 18px;
+}
+
+.arpa {
+    padding: 20px;
+    color: rgb(9, 6, 88);
+    font-size: 18px;
+}
+
+.arpa ul li {
+    margin-left: 20px;
+}
+
+.ascii {
+    padding: 20px;
+    color: rgb(9, 6, 88);
+    font-size: 18px;
+}
+
+#linguagens {
+    background-color: rgb(9, 6, 88);
+    color: azure;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+#linguagens h2 {
+    text-align: center;
+}
+
+.COBOL {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.C {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.Ht {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.tabela {
+    background-color: #6e8ac0;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: 100px;
+    top: 1400px;
+}
+
+#linha-do-tempo {
+    color: rgb(9, 6, 88);
+    font-size: 18px;
+    margin: 40px;
+    width: 800px;
+    padding: 50px 0;
+    overflow-x: auto;
+}
+
+
+#linha-do-tempo h2 {
+    background-color: rgb(9, 6, 88);
+    color: white;
+    width: 400px;
+    padding: 5px;
+    margin: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.timeline {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 4px solid #070437;
+}
+
+.evento {
+    position: relative;
+    flex: 1;
+    padding: 20px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: aliceblue;
+}
+
+.evento::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #070437;
+    border-radius: 50%;
+    border: 3px solid rgb(127, 145, 172);
+}
+
+.evento::after {
+    content: attr(data-date);
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-weight: bold;
+    color: #070437;
+}
+
+.page {
+    background-color: rgba(106, 133, 172, 0.573);
+    margin-top: -40px;
+}
+
+.pag {
+    background-color: rgba(106, 133, 172, 0.573);
+}
+
+.formulario {
+    background-color: rgba(106, 133, 172, 0.573);
+}
+
+footer {
+    background-color: #070437;
+    color: white;
+    text-align: center;
+}
+
+#nomes article {
+    padding: 20px;
+    color: rgb(9, 6, 88);
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#nomes h2 {
+    margin: 20px;
+    background-color: rgb(9, 6, 88);
+    color: white;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#acidentes article {
+    background-color: rgb(9, 6, 88);
+    color: azure;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 15px;
+    text-align: right;
+    font-size: 18px;
+}
+
+#acidentes h2 {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    color: #070437;
+    margin: 25px;
+}
+
+#acidentes h3 {
+    padding: 10px;
+}
+
+#dinheiro article {
+    padding: 20px;
+    color: rgb(9, 6, 88);
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#dinheiro h2 {
+    margin: 20px;
+    background-color: rgb(9, 6, 88);
+    color: white;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tgd {
+    display: flex;
+}
+
+#aleatorio {
+    background-color: rgb(9, 6, 88);
+    color: azure;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 15px;
+    text-align: right;
+    font-size: 18px;
+    width: 500px;
+}
+
+#aleatorio article {
+    padding: 20px;
+}
+
+#aleatorio h3 {
+    padding: 10px;
+}
+
+#aleatorio h2 {
+    text-align: center;
+}
+
+#tb {
+    color: #f1f1f1;
+    background-color: rgb(9, 6, 88);
+    border-radius: 15px;
+    padding: 10px;
+    height: 130px;
+    margin: 25px;
+}
+
+#easter-eggs article {
+    padding: 20px;
+    color: rgb(9, 6, 88);
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#easter-eggs h2 {
+    margin: 20px;
+    background-color: rgb(9, 6, 88);
+    color: white;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bugs-absurdos {
+    background-color: rgb(9, 6, 88);
+    color: azure;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 15px;
+    text-align: right;
+    font-size: 18px;
+}
+
+#bugs-absurdos h2 {
+    text-align: center;
+}
+
+#bugs-absurdos article {
+    padding: 25px;
+}
+
+#comandos-secretos article{
+    padding: 20px;
+    color: rgb(9, 6, 88);
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#comandos-secretos h2{
+    margin: 20px;
+    background-color: rgb(9, 6, 88);
+    color: white;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tab{
+    display: flex;
+    color: #f1f1f1;
+    background-color: rgb(9, 6, 88);
+    border-radius: 15px;
+    margin-left: 25px;
+    padding: 10px;
+    height: 150px;
+    width: 350px;
+    align-items: center;
+}
+
+.formulario{
+    color: #070437;
+    padding: 25px;
+}
