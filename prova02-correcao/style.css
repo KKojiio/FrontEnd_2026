@@ -1,0 +1,71 @@
+.body, html{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.711);
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cont{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+}
+
+.gpAD{
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+    background: rgba(5, 5, 82, 0.734);
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    color: antiquewhite;
+    font-size: medium
+}
+
+.gpBE{
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+    background: rgba(9, 82, 5, 0.734);
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    color: antiquewhite;
+
+}
+
+.gpCF{
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+    background:rgba(179, 167, 9, 0.734);
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    color: antiquewhite;
+
+}
+
+h2{
+    text-align: center;
+    color:aliceblue;
+}
+
+.btn{
+    margin: 50px;
+    border-radius: 10px;
+    float: right;
+    background-color: rgba(16, 146, 166, 0.701);
+    color: aliceblue;
+}
+
+.btn1{
+    margin: 50px;
+    border-radius: 10px;
+    background-color: rgba(16, 146, 166, 0.701);
+    color: aliceblue;
+}
