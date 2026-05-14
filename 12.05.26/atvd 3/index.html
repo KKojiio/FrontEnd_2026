@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Média Escolar</title>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <div class="badge">Exercício 03</div>
+      <h1>Média <span>Escolar</span></h1>
+    </div>
+ 
+    <div class="form-group">
+      <label for="nome">Nome do aluno</label>
+      <input type="text" id="nome" placeholder="Ex: João Silva">
+    </div>
+ 
+    <div class="notas-grid">
+      <div class="form-group">
+        <label for="nota1">Nota 1</label>
+        <input type="number" id="nota1" placeholder="0.0" min="0" max="10" step="0.1">
+      </div>
+      <div class="form-group">
+        <label for="nota2">Nota 2</label>
+        <input type="number" id="nota2" placeholder="0.0" min="0" max="10" step="0.1">
+      </div>
+      <div class="form-group">
+        <label for="nota3">Nota 3</label>
+        <input type="number" id="nota3" placeholder="0.0" min="0" max="10" step="0.1">
+      </div>
+    </div>
+ 
+    <button id="btn-calcular" onclick="calcMedia()">Calcular média</button>
+ 
+    <div class="erro" id="erro">Preencha todos os campos corretamente.</div>
+ 
+    <div class="resultado" id="resultado">
+      <div class="resultado-label" id="res-label"></div>
+      <div class="resultado-nome" id="res-nome"></div>
+      <div class="resultado-media" id="resmedia"></div>
+      <div class="resultado-msg" id="res-msg"></div>
+      <div class="falta-info" id="res-falta"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

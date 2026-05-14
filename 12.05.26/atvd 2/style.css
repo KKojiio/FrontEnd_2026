@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efebce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.card {
+    background-color: #d8a48f;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    width: 360px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #d7ce93;
+}
+
+.field {
+    margin-bottom: 1.25rem;
+}
+
+.field label {
+    display: block;
+    font-size: 13px;
+    color: #d7ce93;
+    margin-bottom: 6px;
+}
+
+.field input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    color: #333;
+}
+
+.field input:focus {
+    border-color: #aaa;
+}
